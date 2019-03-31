@@ -1,0 +1,43 @@
+
+/*------------------------------ vertical bootstrap slider----------------------------*/
+.custom > .carousel-item.carousel-item-next ,
+.custom > .carousel-item.active.carousel-item-right{ 
+    transform: translate3d(0, 100%, 0);
+     -webkit-transform: translate3d(0, 100%, 0);
+      -ms-transform: translate3d(0, 100%, 0);
+      -moz-transform: translate3d(0, 100%, 0);
+       -o-transform: translate3d(0, 100%, 0);
+    
+}
+.custom > .carousel-item.carousel-item-prev ,
+.custom > .carousel-item.active.carousel-item-left{ 
+    transform: translate3d(0,-100%, 0); 
+    -webkit-transform: translate3d(0,-100%, 0);
+      -moz-transform: translate3d(0,-100%, 0);
+      -ms-transform: translate3d(0,-100%, 0);
+       -o-transform: translate3d(0,-100%, 0);
+}
+.custom > .carousel-item.next.carousel-item-left ,
+.custom > .carousel-item.carousel-item-prev.carousel-item-right ,
+.custom > .carousel-item.active{
+    transform:translate3d(0,0,0); 
+    -webkit-transform:translate3d(0,0,0);
+    -ms-transform:translate3d(0,0,0);
+     -moz-transform:translate3d(0,0,0); -o-transform:translate3d(0,0,0);
+    
+}
+
+
+.indicators li {
+    background: #ccc;
+    height: 15px;
+    width: 15px;;
+    border-radius: 50%;
+    list-style-type: none;
+    margin-top:10px;
+    cursor: pointer;
+    opacity: 0.15;
+  }
+.indicators .active{
+    opacity: 1;
+}

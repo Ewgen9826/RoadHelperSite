@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700&subset=cyrillic');
+:root{
+    --green-color:#87d22e;
+    --yellow-color:#ffc326;
+
+    --header-fontsize:30px;
+    --header-description-fontsize:24px;
+    --link-fontsize:18px;
+
+    --margin-section:80px;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ 
+a:hover{
+    text-decoration:none;
+}
+
+.button a{
+    background: var(--green-color);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 18px 30px;
+    border-radius: 5px 20px 5px 20px;
+    transition: .3s;
+}
+.button a:hover{
+    background: #70ae26;
+}
+.button button{
+    background: var(--green-color);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 18px 30px;
+    border-radius: 5px 20px 5px 20px;
+    transition: .3s;
+    border: none;
+}
+.button button:hover{
+    background: #70ae26;
+    cursor: pointer;
+}
+h1{
+    font-weight: 600;
+    font-size: 46px;
+}
+h2{
+    font-size: 32px;
+    font-weight: 600;
+}
+h4{
+    font-size: 20px;
+    font-weight: 800;
+}
+p{
+    font-size: 20px;
+}
+input{
+    padding: 16px;
+    border-radius: 10px;
+    border:2px solid #3c4043;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+input:focus{
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid var(--yellow-color);
+}
+input::placeholder{
+    color:#3c4043;
+    font-style: italic;
+    font-weight: 500;
+}
+.header-section{
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 991.98px){
+    h1{
+        font-size: 32px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .button a{
+        font-size: 18px;
+        padding: 16px 28px;
+    }
+}
+@media (max-width: 767.98px){
+    h1{
+        font-size: 28px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .button a{
+        font-size: 16px;
+        padding: 14px 26px;
+    }
+}
+
+
+@media (max-width: 767.98px) and (orientation: landscape){
+    h1{
+        font-size: 24px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .header-section h2{
+        font-size: 22px;
+    }
+    .header-section p{
+        font-size: 14px;
+    }
+    :root{
+        --margin-section:50px;
+    }
+}
+@media (max-width: 575.98px) and (orientation: portrait){
+    h1{
+        font-size: 26px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .button a{
+        font-size: 16px;
+        padding: 12px 22px;
+    }
+    .header-section h2{
+        font-size: 15px;
+    }
+    .header-section p{
+        font-size: 11px;
+    }
+    :root{
+        --margin-section:30px;
+    }
+}

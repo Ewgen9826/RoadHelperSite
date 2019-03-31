@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Вход в систему</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="adminPanel.css">
+
+</head>
+<body>
+    <div class="header-section">
+        <h1>Административная панель сайта RoadHelper</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="form-group">
+            <label for="exampleInputEmail1">Номер телефона</label>
+            <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите номер телефона">
+        </div>
+        <button type="submit" class="btn btn-primary">Сохранить изменения</button>
+
+
+        <div class="header-block">
+            <h2>Наполнение слайдера</h2>
+        </div>
+        <div class="slider-section">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Слайдер 1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Слайдер 2</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Слайдер 3</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <form method="POST">
+                        <div class="form-group">
+                            <label for="header1">Заголовок слайдера 1</label>
+                            <input type="" class="form-control" id="header1" aria-describedby="emailHelp" placeholder="Введите заголовок">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="description1">Описание слайдера 1</label>
+                            <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="10"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Сохранить изменения</button>
+                    </form>
+                </div>
+
+
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <form method="POST">
+                        <div class="form-group">
+                            <label for="header1">Заголовок слайдера 2</label>
+                            <input type="" class="form-control" id="header1" aria-describedby="emailHelp" placeholder="Введите заголовок">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="description1">Описание слайдера 2</label>
+                            <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="10"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Сохранить изменения</button>
+                    </form>
+                </div>
+
+
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                    <form method="POST">
+                        <div class="form-group">
+                            <label for="header1">Заголовок слайдера 3</label>
+                            <input type="" class="form-control" id="header1" aria-describedby="emailHelp" placeholder="Введите заголовок">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="description1">Описание слайдера 3</label>
+                            <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="10"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Сохранить изменения</button>
+                    </form>
+                </div>  
+              </div>
+        </div>
+
+
+        <div class="header-block mt-4">
+            <h2>Текст преимуществ</h2>
+        </div>
+
+        <div class="cards-advantages row mt-5">
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body d-flex flex-column">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Заголовок</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите заголовок">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Описание</label>
+                                <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="6"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary justify-content-center">Сохранить изменения</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body d-flex flex-column">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Заголовок</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите заголовок">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Описание</label>
+                                <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="6"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary justify-content-center">Сохранить изменения</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body d-flex flex-column">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Заголовок</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите заголовок">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Описание</label>
+                                <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="6"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary justify-content-center">Сохранить изменения</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="header-block mt-5">
+            <h2>Настройка карточек услуг</h2>
+        </div>
+
+        <div class="cards-services">
+            <div class="row">
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body d-flex flex-column">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Название услуги</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите название">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Преимущество 1</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите преимущество 1">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Преимущество 2</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите преимущество 2">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Преимущество 3</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите преимущество 3">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Цена услуги</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите цену услуги">
+                            </div>
+                            <button type="submit" class="btn btn-primary justify-content-center">Сохранить изменения</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body d-flex flex-column">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Название услуги</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите название">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Преимущество 1</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите преимущество 1">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Преимущество 2</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите преимущество 2">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Преимущество 3</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите преимущество 3">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Цена услуги</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите цену услуги">
+                            </div>
+                            <button type="submit" class="btn btn-primary justify-content-center">Сохранить изменения</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-body d-flex flex-column">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Название услуги</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите название">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Преимущество 1</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите преимущество 1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Преимущество 2</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите преимущество 2">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Преимущество 3</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите преимущество 3">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Цена услуги</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите цену услуги">
+                        </div>
+                        <button type="submit" class="btn btn-primary justify-content-center">Сохранить изменения</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-body d-flex flex-column">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Название услуги</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите название">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Преимущество 1</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите преимущество 1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Преимущество 2</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите преимущество 2">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Преимущество 3</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите преимущество 3">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Цена услуги</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите цену услуги">
+                        </div>
+                        <button type="submit" class="btn btn-primary justify-content-center">Сохранить изменения</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>

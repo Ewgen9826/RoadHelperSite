@@ -1,0 +1,17 @@
+.header-section{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+}
+.header-section h1{
+    color:#87d22e;
+}
+.header-block{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-group label{
+    font-weight: bold;
+}

@@ -1,0 +1,10 @@
+label.error{
+    color: #ff4444;
+    font-weight:bold;
+    font-size: 14px;
+    transition:0.2s linear;
+}
+input.error{
+    border: 2px solid #ff4444;
+    background-color: rgba(255, 0, 0, 0.2);
+}
